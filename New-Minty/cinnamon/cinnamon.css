@@ -739,7 +739,7 @@ StScrollBar StButton#hhandle:focus {
   font-weight: normal;
   font-size: 9pt;
   padding: 0.8em 0 0.6em 0;
-  border-top: 1px #333;
+  border-top: 1px #111;
 }
 
 #notification-actions {
