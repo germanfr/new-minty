@@ -35,10 +35,8 @@
    ===================================================================*/
 
 .run-dialog {
-
     > * {
-        border-image: url("background-assets/popup.svg") 7;
-        padding: 12px;
+        padding: 10px;
     }
 
     > .modal-dialog-button-box {
@@ -50,8 +48,15 @@
     }
 
     &-error-box {
-        padding: 10px 2px 2px 2px;
-        spacing: 5px;
+        padding: 12px 4px 6px 4px;
+        spacing: 1em;
+        color: $accent;
+        font-weight: bold;
+
+        StIcon {
+            @include size(16px);
+            color: $accent;
+        }
     }
 
     &-completion-box { font-size: 10px; }
