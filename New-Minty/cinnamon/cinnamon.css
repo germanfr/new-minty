@@ -928,7 +928,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .about-uuid {
-  font-size: 10px;
+  font-size: 9pt;
   color: rgba(255, 255, 255, 0.55);
 }
 
@@ -939,8 +939,8 @@ StScrollBar StButton#hhandle:focus {
 
 .about-version {
   padding-left: 7px;
-  font-size: 10px;
-  color: rgba(255, 255, 255, 0.55);
+  font-size: 9pt;
+  color: #8abf5c;
 }
 
 .about-icon {
