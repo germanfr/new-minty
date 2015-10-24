@@ -947,9 +947,9 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .about-version {
-  padding-left: 7px;
+  padding-left: 9pt;
   font-size: 9pt;
-  color: #8abf5c;
+  color: #e8a05f;
 }
 
 .about-icon {
