@@ -9,11 +9,11 @@ stage {
 .cinnamon-link {
   color: #8abf5c;
   font-weight: normal;
-  text-decoration: underline;
 }
 
 .cinnamon-link:hover {
-  color: #7540a3;
+  color: #aad088;
+  text-decoration: underline;
 }
 
 .label-shadow {
@@ -731,7 +731,7 @@ StScrollBar StButton#hhandle:focus {
 #notification CinnamonGenericContainer * {
   font-weight: normal;
   font-size: 9pt;
-  color: #8abf5c;
+  color: #e8a05f;
 }
 
 #notification CinnamonGenericContainer *:first-child {
@@ -900,14 +900,14 @@ StScrollBar StButton#hhandle:focus {
 .run-dialog-error-box {
   padding: 12px 4px 6px 4px;
   spacing: 1em;
-  color: #8abf5c;
+  color: #e86b6b;
   font-weight: bold;
 }
 
 .run-dialog-error-box StIcon {
   width: 16px;
   height: 16px;
-  color: #8abf5c;
+  color: #e86b6b;
 }
 
 .run-dialog-completion-box {

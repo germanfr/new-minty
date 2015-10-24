@@ -48,7 +48,7 @@
         selected-color: $text-primary;
         caret-color: $text-primary-invert;
         caret-size: 1px;
-        selection-background-color: darken($accent, 10%);
+        selection-background-color: darken($accent-primary, 10%);
     }
 }
 
