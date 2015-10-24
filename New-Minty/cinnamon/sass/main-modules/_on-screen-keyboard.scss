@@ -18,6 +18,7 @@
 .keyboard-key {
     @include btn-primary;
     @include btn-width(small);
+    font-size: 12pt;
 }
 
 .keyboard-subkeys {

@@ -1088,6 +1088,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets/button-primary.svg") 10;
   color: white;
   padding: .9em;
+  font-size: 12pt;
 }
 
 .keyboard-key:grayed,
