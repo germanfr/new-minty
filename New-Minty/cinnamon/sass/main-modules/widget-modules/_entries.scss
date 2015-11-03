@@ -20,8 +20,8 @@
     &:pressed {
         border-image: url("widget-assets/entry-focused.svg") 6;
         font-weight: bold;
-        color: $text-primary;
-        caret-color: $text-primary;
+        color: $text-primary-invert;
+        caret-color: $text-primary-invert;
         caret-size: 1px;
         selected-color: $text-primary;
         selection-background-color: $accent-primary;
@@ -34,7 +34,7 @@
     &:focus > StIcon,
     &:active > StIcon,
     &:pressed > StIcon {
-        color: $icon-primary;
+        color: $icon-primary-invert;
     }
 }
 

@@ -103,8 +103,8 @@ StScrollBar StButton#hhandle:focus {
 #notification StEntry:pressed {
   border-image: url("widget-assets/entry-focused.svg") 6;
   font-weight: bold;
-  color: white;
-  caret-color: white;
+  color: rgba(0, 0, 0, 0.75);
+  caret-color: rgba(0, 0, 0, 0.75);
   caret-size: 1px;
   selected-color: white;
   selection-background-color: #8abf5c;
@@ -125,7 +125,7 @@ StScrollBar StButton#hhandle:focus {
 #notification StEntry:focus > StIcon,
 #notification StEntry:active > StIcon,
 #notification StEntry:pressed > StIcon {
-  color: #fff;
+  color: #222;
 }
 
 /* ===================================================================
@@ -2694,8 +2694,8 @@ StBoxLayout.applet-box.desktop-capture StBin {
 .sticky-text-box:pressed {
   border-image: url("widget-assets/entry-focused.svg") 6;
   font-weight: bold;
-  color: white;
-  caret-color: white;
+  color: rgba(0, 0, 0, 0.75);
+  caret-color: rgba(0, 0, 0, 0.75);
   caret-size: 1px;
   selected-color: white;
   selection-background-color: #8abf5c;
@@ -2708,7 +2708,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 .sticky-text-box:focus > StIcon,
 .sticky-text-box:active > StIcon,
 .sticky-text-box:pressed > StIcon {
-  color: #fff;
+  color: #222;
 }
 
 .sticky-text-box:active {
