@@ -116,6 +116,10 @@
     }
 }
 
-.popup-subtitle-menu-item {}
+.popup-inactive-menu-item {
+    color: $text-secondary;
+}
 
-.popup-inactive-menu-item { color: $text-secondary; }
+.popup-menu-item .popup-subtitle-menu-item {
+    font-weight: bold;
+}

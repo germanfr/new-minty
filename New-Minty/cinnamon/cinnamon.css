@@ -353,6 +353,10 @@ StScrollBar StButton#hhandle:focus {
   color: rgba(255, 255, 255, 0.55);
 }
 
+.popup-menu-item .popup-subtitle-menu-item {
+  font-weight: bold;
+}
+
 /* ===================================================================
    ! Panel
    ===================================================================*/
