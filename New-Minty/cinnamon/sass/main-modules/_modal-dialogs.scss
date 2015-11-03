@@ -75,8 +75,7 @@
    ===================================================================*/
 
 .about-content {
-    width: 550px;
-    height: 250px;
+    @include size(550px, 250px);
     spacing: 8px;
 }
 
