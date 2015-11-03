@@ -29,18 +29,18 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="20.005229"
-     inkscape:cx="-2.9460923"
-     inkscape:cy="11.900026"
+     inkscape:zoom="14.145833"
+     inkscape:cx="16.397668"
+     inkscape:cy="9.8305462"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="875"
-     inkscape:window-x="-1"
-     inkscape:window-y="24"
+     inkscape:window-height="849"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -89,7 +89,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -130,20 +130,17 @@
      id="layer1"
      transform="translate(0,-276)">
     <rect
-       transform="scale(-1,1)"
-       y="276"
-       x="-24"
-       height="23"
-       width="24"
-       id="rect4366"
-       style="opacity:0.9;fill:#000000;fill-opacity:1;stroke:none" />
-    <rect
        style="opacity:0.9;fill:#8abf5c;fill-opacity:1;stroke:none"
        id="rect2995"
-       width="22"
+       width="24"
        height="23"
-       x="-23"
+       x="-24"
        y="276"
        transform="scale(-1,1)" />
+    <path
+       style="opacity:0.15;fill:#ffffff;fill-opacity:1;stroke:none"
+       d="M 0 0 L 0 23 L 1 23 L 1 0 L 0 0 z M 23 0 L 23 23 L 24 23 L 24 0 L 23 0 z "
+       transform="translate(0,276)"
+       id="rect4366" />
   </g>
 </svg>

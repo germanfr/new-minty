@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="90.000000"
@@ -16,8 +15,8 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="bottom-item-attention-hover.svg"
+   inkscape:version="0.91 r"
+   sodipodi:docname="panel-bottom-item-red-hover.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -30,16 +29,16 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="20.005229"
-     inkscape:cx="4.6269277"
-     inkscape:cy="11.92502"
+     inkscape:zoom="14.145833"
+     inkscape:cx="16.397668"
+     inkscape:cy="9.8305462"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="846"
+     inkscape:window-height="849"
      inkscape:window-x="0"
      inkscape:window-y="25"
      width="400px"
@@ -52,7 +51,7 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-maximized="1"
-     inkscape:bbox-nodes="false"
+     inkscape:bbox-nodes="true"
      inkscape:bbox-paths="false"
      inkscape:snap-bbox-edge-midpoints="false"
      inkscape:snap-bbox-midpoints="false"
@@ -73,50 +72,7 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <defs
-     id="defs3">
-    <linearGradient
-       id="linearGradient3955">
-      <stop
-         id="stop3957"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-      <stop
-         id="stop3959"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3773">
-      <stop
-         style="stop-color:#cc4c4c;stop-opacity:1;"
-         offset="0"
-         id="stop3775" />
-      <stop
-         style="stop-color:#d56b6b;stop-opacity:1;"
-         offset="1"
-         id="stop3777" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3773"
-       id="linearGradient3779"
-       x1="25"
-       y1="23"
-       x2="25"
-       y2="0"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-24,277)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3955"
-       id="linearGradient3953"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-1,0,0,1,24,277)"
-       x1="25"
-       y1="23"
-       x2="25"
-       y2="0" />
-  </defs>
+     id="defs3" />
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -133,7 +89,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -174,17 +130,17 @@
      id="layer1"
      transform="translate(0,-276)">
     <rect
-       style="opacity:0.9;fill:url(#linearGradient3779);fill-opacity:1;stroke:none"
+       style="opacity:0.9;fill:#de6a6a;fill-opacity:1;stroke:none"
        id="rect2995"
        width="24"
        height="23"
        x="-24"
-       y="277"
+       y="276"
        transform="scale(-1,1)" />
     <path
-       style="opacity:0.18;fill:url(#linearGradient3953);fill-opacity:1;stroke:none"
-       d="m 0,277 0,23 24,0 0,-23 -24,0 z m 1.03125,1 21.9375,0 0,21 -21.9375,0 0,-21 z"
-       id="rect3944"
+       style="opacity:0.15;fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 0,276 0,23 1,0 0,-23 -1,0 z m 23,0 0,23 1,0 0,-23 -1,0 z"
+       id="rect4366"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
