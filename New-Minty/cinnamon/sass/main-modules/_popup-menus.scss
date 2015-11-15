@@ -79,6 +79,15 @@
         border-image: url("background-assets/hover.svg") 9;
         color: $text-primary;
     }
+
+    // FIX for strange padding in "StDrawingArea"
+    .popup-slider-menu-item {
+        border-image: url("widget-assets/slider--submenu.svg") 9 32 8 8;
+    }
+
+    .popup-menu-item:active .popup-slider-menu-item {
+        border-image: url("widget-assets/slider-hover--submenu.svg") 9 32 8 8;
+    }
 }
 
 .popup-submenu-menu-item:open {
