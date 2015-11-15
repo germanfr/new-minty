@@ -310,10 +310,6 @@ StScrollBar StButton#hhandle:focus {
   color: white;
 }
 
-.popup-sub-menu .popup-menu-item {
-  padding-left: 2.1em;
-}
-
 .popup-sub-menu .popup-menu-item:active {
   border-image: url("background-assets/hover.svg") 9;
   color: white;
