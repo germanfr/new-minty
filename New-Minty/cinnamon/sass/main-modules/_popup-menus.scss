@@ -123,3 +123,12 @@
 .popup-menu-item .popup-subtitle-menu-item {
     font-weight: bold;
 }
+
+
+.popup-device-menu-item {
+    spacing: .5em;
+
+    .popup-inactive-menu-item {
+        color: $text-info;
+    }
+}
