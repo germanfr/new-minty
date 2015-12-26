@@ -2,6 +2,10 @@
    ! Notifications
    ===================================================================*/
 
+.url-highlighter {
+    link-color: $link;
+}
+
 #notification {
     border-image: url("background-assets/popup.svg") 7;
     padding: 1.3em;
