@@ -4,7 +4,7 @@
 
 ####Installation
 
-You can install the latest version of this theme from within your theme settings.
+Move the `New-Minty` folder into your `~/.themes` directory.
 
 ---
 
