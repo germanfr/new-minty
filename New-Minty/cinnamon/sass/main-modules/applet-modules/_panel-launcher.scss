@@ -4,14 +4,29 @@
 
 #panel-launchers-box {}
 
-.panel-launcher {
-    margin: 0;
-    padding: 0 4px;
+.panel-launchers {
+    padding: 0;
+
+    .launcher {
+        padding: 0 3px;
+    }
 }
 
-/* Different images used in top & bottom panels. */
-@each $v in panel-top, panel-bottom {
-    .#{$v} .panel-launcher:hover {
-        border-image: url("panel-assets/#{$v}-item-green-hover.svg") 4;
+/* Launchers shifted down fix */
+.panel-top .panel-launchers .icon-box {
+    padding: 0;
+}
+
+/* Different images used in vertical and horizontal panels. */
+@each $v in $orientations {
+    .#{$v} {
+        .panel-launchers .launcher:hover, .panel-launcher {
+            border-image: url("panel-assets/#{$v}-item-green-hover.svg") 4;
+        }
     }
+}
+
+/* Deprecated since 3.2 */
+.panel-launcher {
+    padding: 0 4px;
 }

@@ -2,9 +2,48 @@
    ! Popup Menus
    ===================================================================*/
 
-.popup-menu {
-    min-width: 100px;
+.menu {
+    padding: 0;
+    background-color: rgba(20, 20, 20, .9);
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, .9);
+    $radius: 3px;
 
+    &.top {
+        border-radius: 0 0 $radius $radius;
+        border-top: none;
+    }
+
+    &.bottom {
+        border-radius: $radius $radius 0 0;
+        border-bottom: none;
+    }
+
+    &.right {
+        border-radius: $radius 0 0 $radius;
+        border-right: none;
+    }
+
+    &.left {
+        border-radius: 0 $radius $radius 0;
+        border-left: none;
+    }
+
+    .popup-menu-content {
+        border-image: none;
+        padding: .7em 0;
+        color: $text-primary;
+    }
+
+    &-icon, StIcon {
+        icon-size: 16px;
+        color: $icon-primary;
+    }
+}
+
+.popup-menu {
+
+    /* Deprecated since 3.2 */
     &-boxpointer {
         padding: 0;
         -arrow-border-radius: 3px;
@@ -14,17 +53,6 @@
         -arrow-base: 16px;
         -arrow-rise: 8px;
         -boxpointer-gap: 2px;
-    }
-
-    .popup-menu-content {
-        border-image: url("background-assets/popup-inside.svg") 9;
-        padding: .7em 0;
-        color: $text-primary;
-    }
-
-    &-icon, StIcon {
-        icon-size: 16px;
-        color: $icon-primary;
     }
 
     &-arrow {

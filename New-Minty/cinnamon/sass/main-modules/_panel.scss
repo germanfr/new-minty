@@ -4,12 +4,11 @@
 
 #panel {}
 
-// Top & bottom panels use different images
-@each $v in panel-top, panel-bottom {
+// Horizontal & vertical panels use different images
+@each $v in $orientations {
     .#{$v} {
         border-image: url("panel-assets/#{$v}.svg") 4;
         font-size: 9pt;
-        height: 25px;
 
         &:highlight {
             border-image: url("panel-assets/#{$v}-highlight.svg") 4;
@@ -24,9 +23,22 @@
         #panelRight:dnd {
             border-image: url("panel-assets/DND-#{$v}-right.svg") 4;
         }
+
+        .panel-status-button:hover {
+            border-image: url("panel-assets/#{$v}-item-green-hover.svg") 4;
+        }
     }
 }
 
+.panel-bottom, .panel-top {
+    height: 25px;
+}
+
+.panel-right, .panel-left {
+    width: 25px;
+}
+
+/* Dummy panels for users to select new panel position */
 .panel-dummy {
     background-color: alpha($accent-primary, .8);
 
@@ -41,14 +53,6 @@
     font-weight: bold;
     color: $icon-primary;
     height: inherit;
-}
-
-.panel-top .panel-status-button:hover {
-    border-image: url("panel-assets/panel-top-item-green-hover.svg") 4;
-}
-
-.panel-bottom .panel-status-button:hover {
-    border-image: url("panel-assets/panel-bottom-item-green-hover.svg") 4;
 }
 
 .system-status-icon {

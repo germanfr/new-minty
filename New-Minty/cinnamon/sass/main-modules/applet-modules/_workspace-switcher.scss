@@ -7,15 +7,14 @@
 }
 
 .workspace-button {
-    padding-left: 8px;
-    padding-right: 8px;
-	min-width: 0.6em;
+    padding: 0 8px;
+    min-width: 0.6em;
     color: $text-secondary;
     font-weight: bold;
 }
 
-/* Different images used in top & bottom panels. */
-@each $v in panel-top, panel-bottom {
+/* Different images used in vertical & horizontal panels. */
+@each $v in $orientations {
     .#{$v} {
         .workspace-button:outlined {
             border-image: url("panel-assets/#{$v}-item-green.svg") 4;
@@ -41,11 +40,10 @@
     spacing: 3px;
 }
 
-/* Different images/paddings used in top & bottom panels. */
-@each $v in panel-top, panel-bottom {
+/* Different images/paddings used in vertical & horizontal panels. */
+@each $v in $orientations {
     .#{$v} .workspace {
         border-image: url("panel-assets/#{$v}-item-light.svg") 4;
-        padding: if($v == panel-top, 2px 0 0 0, 1px 0 2px 0);
 
         .windows {
             -inactive-window-background: rgba(120, 120, 120, .9);

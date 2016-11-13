@@ -32,7 +32,7 @@
 
 /* Categories */
 .menu-categories-box {
-    padding: 10px 30px;
+    padding: 10px 30px 10px 20px;
     font-weight: bold;
 }
 
@@ -61,15 +61,18 @@
 
 
 /* Applications */
-.menu-applications-inner-box,
 .menu-applications-outer-box {
     padding: 10px;
     padding-bottom: 0;
 }
 
+.menu-applications-inner-box {
+	padding: 10px;
+	padding-left: 0;
+}
+
 .menu-application-button {
     padding: 7px;
-    max-width: 10px;
 
     &-selected {
         padding: 7px;
@@ -110,7 +113,7 @@
 
 /* Menu search box */
 .menu-search-box {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 

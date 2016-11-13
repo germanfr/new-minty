@@ -19,8 +19,8 @@
     padding-right: 4px;
 }
 
-/* Different images used in top & bottom panels. */
-@each $v in panel-top, panel-bottom {
+/* Different images used in vertical & horizontal panels. */
+@each $v in $orientations {
     .#{$v} {
         .window-list-item-box:hover  {
             border-image: url("panel-assets/#{$v}-item-green-hover.svg") 4;

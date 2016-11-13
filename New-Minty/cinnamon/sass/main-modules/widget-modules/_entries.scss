@@ -42,8 +42,10 @@
    ! Entries
    ===================================================================*/
 
+/* "popup-menu" is deprecated since 3.2 */
 .popup-menu StEntry,
 .modal-dialog StEntry,
-#notification StEntry {
+#notification StEntry,
+.menu StEntry {
     @include entry;
 }

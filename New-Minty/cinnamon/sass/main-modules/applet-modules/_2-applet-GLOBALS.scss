@@ -3,12 +3,25 @@
    ===================================================================*/
 
 .applet-separator {
-    background-image: url("panel-assets/panel-separator.svg");
-    background-repeat: repeat;
-    width: 9px;
     padding: 0;
+    background-repeat: repeat;
 
-    &-line {/*!*/}
+    &-line { opacity: 0; }
+    &-line-vertical { opacity: 0; }
+}
+
+.panel-top, .panel-bottom {
+    .applet-separator {
+        width: 9px;
+        background-image: url("panel-assets/panel-separator-horizontal.svg");
+    }
+}
+
+.panel-right, .panel-left {
+    .applet-separator {
+        height: 9px;
+        background-image: url("panel-assets/panel-separator-vertical.svg");
+    }
 }
 
 .applet-label {
@@ -27,7 +40,7 @@
 }
 
 /* Different images used in top & bottom panels. */
-@each $v in panel-top, panel-bottom {
+@each $v in $orientations {
     .#{$v} .applet-box:hover {
         border-image: url("panel-assets/#{$v}-item-green-hover.svg") 4;
     }
