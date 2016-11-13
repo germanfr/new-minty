@@ -10,7 +10,7 @@ Move the `New-Minty` folder into your `~/.themes` directory.
 
 ####Compatibility
 
-The latest version of this theme is on the master branch, and it supports cinnamon version `2.8`.
+The latest version of this theme is on the master branch, and it supports cinnamon version `3.2`.
 
 For older versions, check the available [releases](../../releases).
 
