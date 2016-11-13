@@ -1039,7 +1039,7 @@ StScrollBar StButton#hhandle:focus {
   padding: 5px 8px 6px 8px;
 }
 
-.modal-dialog-icon {
+.modal-dialog-icon, .modal-dialog-button {
   background-color: transparent;
   background-gradient-direction: none;
   background-gradient-start: transparent;
@@ -1056,56 +1056,61 @@ StScrollBar StButton#hhandle:focus {
   -st-natural-width: 8em;
 }
 
-.modal-dialog-icon:grayed, .modal-dialog-icon:disabled, .modal-dialog-icon:insensitive {
+.modal-dialog-icon:grayed, .modal-dialog-icon:disabled, .modal-dialog-icon:insensitive, .modal-dialog-button:grayed, .modal-dialog-button:disabled, .modal-dialog-button:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(255, 255, 255, 0.15);
 }
 
-.modal-dialog-icon:grayed StIcon, .modal-dialog-icon:disabled StIcon, .modal-dialog-icon:insensitive StIcon {
+.modal-dialog-icon:grayed StIcon, .modal-dialog-icon:disabled StIcon, .modal-dialog-icon:insensitive StIcon, .modal-dialog-button:grayed StIcon, .modal-dialog-button:disabled StIcon, .modal-dialog-button:insensitive StIcon {
   color: #444;
 }
 
-.modal-dialog-icon > StIcon {
+.modal-dialog-icon > StIcon, .modal-dialog-button > StIcon {
   width: 16px;
   height: 16px;
   icon-size: 16px;
 }
 
-.modal-dialog-icon:hover {
+.modal-dialog-icon:hover, .modal-dialog-button:hover {
   border-image: url("button-assets/button-primary-hover.svg") 10;
 }
 
-.modal-dialog-icon:active, .modal-dialog-icon:pressed {
+.modal-dialog-icon:active, .modal-dialog-icon:pressed, .modal-dialog-button:active, .modal-dialog-button:pressed {
   border-image: url("button-assets/button-primary-pressed.svg") 10;
 }
 
-.modal-dialog-icon:focus {
+.modal-dialog-icon:focus, .modal-dialog-button:focus {
   border-image: url("button-assets/button-green.svg") 10;
   color: white;
 }
 
-.modal-dialog-icon:focus:hover {
+.modal-dialog-icon:focus:hover, .modal-dialog-button:focus:hover {
   border-image: url("button-assets/button-green-hover.svg") 10;
 }
 
-.modal-dialog-icon:focus:active, .modal-dialog-icon:focus:pressed {
+.modal-dialog-icon:focus:active, .modal-dialog-icon:focus:pressed, .modal-dialog-button:focus:active, .modal-dialog-button:focus:pressed {
   border-image: url("button-assets/button-green-pressed.svg") 10;
 }
 
-.modal-dialog-icon > StIcon {
+.modal-dialog-icon > StIcon, .modal-dialog-button > StIcon {
   color: #fff;
 }
 
 .modal-dialog-icon:hover > StIcon,
 .modal-dialog-icon:active > StIcon,
-.modal-dialog-icon:pressed > StIcon {
+.modal-dialog-icon:pressed > StIcon, .modal-dialog-button:hover > StIcon,
+.modal-dialog-button:active > StIcon,
+.modal-dialog-button:pressed > StIcon {
   color: #fff;
 }
 
 .modal-dialog-icon:focus > StIcon,
 .modal-dialog-icon:focus:hover > StIcon,
 .modal-dialog-icon:focus:active > StIcon,
-.modal-dialog-icon:focus:pressed > StIcon {
+.modal-dialog-icon:focus:pressed > StIcon, .modal-dialog-button:focus > StIcon,
+.modal-dialog-button:focus:hover > StIcon,
+.modal-dialog-button:focus:active > StIcon,
+.modal-dialog-button:focus:pressed > StIcon {
   color: #fff;
 }
 

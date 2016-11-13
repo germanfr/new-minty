@@ -29,12 +29,13 @@
         margin: 0;
         padding: 5px 8px 6px 8px;
     }
+
+    &-icon, &-button {
+        @include btn-primary;
+        @include btn-width(wide);
+    }
 }
 
-.modal-dialog-icon {
-    @include btn-primary;
-    @include btn-width(wide);
-}
 /* ===================================================================
    ! Run dialog
    ===================================================================*/
