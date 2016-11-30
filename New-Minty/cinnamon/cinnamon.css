@@ -370,6 +370,8 @@ StScrollBar StButton#hhandle:focus {
 .popup-separator-menu-item {
   background-color: rgba(255, 255, 255, 0.1);
   height: 1px;
+  -gradient-start: rgba(255, 255, 255, 0.1);
+  -gradient-end: rgba(255, 255, 255, 0.1);
 }
 
 .popup-slider-menu-item {
