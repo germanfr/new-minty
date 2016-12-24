@@ -14,7 +14,7 @@
 
 .osd-window {
     spacing: .4em;
-    padding: 1.4em;
+    padding: .8em 1.4em;
     color: $text-primary;
     border-image: url("background-assets/popup.svg") 10;
     font-size: 20pt;
@@ -22,8 +22,10 @@
     StIcon { color: $icon-primary; }
 
     .level {
-        height: 5px;
+        height: 6px;
         color: $accent-primary;
+        padding: 1px;
+        background-color: alpha(#000000,.45);
     }
 }
 

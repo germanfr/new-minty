@@ -2137,7 +2137,7 @@ StScrollBar StButton#hhandle:focus {
 
 .osd-window {
   spacing: .4em;
-  padding: 1.4em;
+  padding: .8em 1.4em;
   color: white;
   border-image: url("background-assets/popup.svg") 10;
   font-size: 20pt;
@@ -2148,8 +2148,10 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .osd-window .level {
-  height: 5px;
+  height: 6px;
   color: #8abf5c;
+  padding: 1px;
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
 .workspace-osd {
