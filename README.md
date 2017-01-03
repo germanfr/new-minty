@@ -26,6 +26,12 @@ To change the font, edit the `cinnamon.css` file at selector `stage`
 
 ---
 
+### Menu Icons
+
+Check out the `menu-icons` dir which contains a lot of cool menu icons. :yum:
+
+---
+
 ### Development
 
 The `watch` script will watch the chosen dirs for changes and
