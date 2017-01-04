@@ -901,7 +901,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu-content #notification.multi-line-notification {
-  border-image: url("img/containers/light-bg-marked-violet.svg") 7;
+  border-image: url("img/containers/light-bg-marked-magenta.svg") 7;
 }
 
 .popup-menu-content #notification.notification-with-image {
