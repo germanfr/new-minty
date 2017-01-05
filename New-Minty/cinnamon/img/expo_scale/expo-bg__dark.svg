@@ -30,8 +30,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="14.5625"
-     inkscape:cx="6.5015264"
-     inkscape:cy="7.2281942"
+     inkscape:cx="-4.0735809"
+     inkscape:cy="7.0908551"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -43,7 +43,7 @@
      inkscape:window-y="26"
      width="400px"
      height="300px"
-     inkscape:snap-nodes="true"
+     inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      gridtolerance="10000"
      inkscape:object-nodes="true"
@@ -130,20 +130,25 @@
      inkscape:label="Base"
      id="layer1"
      transform="translate(0,-276)">
-    <rect
-       style="opacity:0.95999995;fill:#141414;fill-opacity:1;stroke:none"
-       id="rect3003"
-       width="20"
-       height="20"
-       x="2"
-       y="278"
-       ry="2"
-       rx="2" />
-    <path
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none"
-       d="m 4,277 c -1.662,0 -3,1.338 -3,3 l 0,16 c 0,1.662 1.338,3 3,3 l 16,0 c 1.662,0 3,-1.338 3,-3 l 0,-16 c 0,-1.662 -1.338,-3 -3,-3 z m 0,1 16,0 c 1.108,0 2,0.892 2,2 l 0,16 c 0,1.108 -0.892,2 -2,2 l -16,0 c -1.108,0 -2,-0.892 -2,-2 l 0,-16 c 0,-1.108 0.892,-2 2,-2 z"
-       id="rect7036"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ssssssssssssssssss" />
+    <g
+       style="display:inline;enable-background:new"
+       id="g4213"
+       transform="matrix(0.91304332,0,0,0.91304332,1.0434812,277.04345)">
+      <g
+         transform="translate(0,-276)"
+         id="layer1-6"
+         inkscape:label="Base"
+         style="display:inline">
+        <rect
+           rx="3.2857149"
+           ry="3.2857149"
+           y="276.50003"
+           x="0.49999893"
+           height="23.000002"
+           width="23.000002"
+           id="rect3003"
+           style="opacity:0.95999995;fill:#141414;fill-opacity:1;stroke:#000000;stroke-width:1.09523833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
   </g>
 </svg>

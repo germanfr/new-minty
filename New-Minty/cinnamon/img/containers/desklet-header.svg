@@ -30,8 +30,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="20.594485"
-     inkscape:cx="3.5854732"
-     inkscape:cy="11.805774"
+     inkscape:cx="-0.16071978"
+     inkscape:cy="11.077425"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -63,7 +63,8 @@
      guideopacity="1"
      guidehicolor="#001aff"
      guidehiopacity="0.49803922"
-     inkscape:snap-smooth-nodes="true">
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-global="true">
     <inkscape:grid
        type="xygrid"
        id="grid3123"
@@ -73,19 +74,7 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <defs
-     id="defs3">
-    <linearGradient
-       id="linearGradient3771">
-      <stop
-         id="stop3773"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-      <stop
-         id="stop3775"
-         offset="1"
-         style="stop-color:#eaeaea;stop-opacity:1;" />
-    </linearGradient>
-  </defs>
+     id="defs3" />
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -102,7 +91,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -143,16 +132,11 @@
      id="layer1"
      transform="translate(0,-276)">
     <path
-       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
-       d="m 24,300 0,-20 c 0,-2.216 -1.784,-4 -4,-4 l -16,0 c -2.216,0 -4,1.784 -4,4 l 0,20 1,0 0,-20 c 0,-1.662 1.338,-3 3,-3 l 16,0 c 1.662,0 3,1.338 3,3 l 0,20 z"
-       id="rect6887"
+       style="opacity:0.95999995;fill:#141414;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 23.5,24 0,-20.5 c 0,-1.662 -1.338,-3 -3,-3 l -17,0 c -1.662,0 -3,1.338 -3,3 l 0,20.5"
+       transform="translate(0,276)"
+       id="rect3003"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssssccsssscc" />
-    <path
-       style="display:inline;opacity:0.96;fill:#141414;fill-opacity:1;stroke:none;enable-background:new"
-       d="m 23,300 0,-20 c 0,-1.662 -1.338,-3 -3,-3 l -16,0 c -1.662,0 -3,1.338 -3,3 l 0,20 z"
-       id="rect3003-9"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csssscc" />
+       sodipodi:nodetypes="cssssc" />
   </g>
 </svg>
