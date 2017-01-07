@@ -3,13 +3,34 @@
  * ====================================== */
 
 .menu {
-    padding: 3px;
+    padding: 0;
     min-width: 100px;
+    background-color: rgba(20, 20, 20, 0.96);
+    border: 1px solid #000000;
+
+    @each $pos in top, bottom, left, right {
+        &.#{$pos} {
+            border-#{$pos}: none;
+        }
+    }
+
+    $rad: 3px;
+    &.top {
+        border-radius: 0 0 $rad $rad;
+    }
+    &.right {
+        border-radius: $rad 0 0 $rad;
+    }
+    &.bottom {
+        border-radius: $rad $rad 0 0;
+    }
+    &.left {
+        border-radius: 0 $rad $rad 0;
+    }
 }
 
 .popup-menu-content {
-    border-image: url("img/containers/popup.svg") 10;
-    padding: .5em .1em;
+    padding: .5em 0;
     color: $text-primary;
     max-height: 70em;
 }

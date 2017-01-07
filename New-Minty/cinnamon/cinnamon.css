@@ -290,13 +290,46 @@ StScrollBar StButton#hhandle:active {
  * ! Popup Menus
  * ====================================== */
 .menu {
-  padding: 3px;
+  padding: 0;
   min-width: 100px;
+  background-color: rgba(20, 20, 20, 0.96);
+  border: 1px solid #000000;
+}
+
+.menu.top {
+  border-top: none;
+}
+
+.menu.bottom {
+  border-bottom: none;
+}
+
+.menu.left {
+  border-left: none;
+}
+
+.menu.right {
+  border-right: none;
+}
+
+.menu.top {
+  border-radius: 0 0 3px 3px;
+}
+
+.menu.right {
+  border-radius: 3px 0 0 3px;
+}
+
+.menu.bottom {
+  border-radius: 3px 3px 0 0;
+}
+
+.menu.left {
+  border-radius: 0 3px 3px 0;
 }
 
 .popup-menu-content {
-  border-image: url("img/containers/popup.svg") 10;
-  padding: .5em .1em;
+  padding: .5em 0;
   color: #fff;
   max-height: 70em;
 }
