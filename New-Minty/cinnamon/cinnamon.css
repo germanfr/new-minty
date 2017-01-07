@@ -372,7 +372,7 @@ StScrollBar StButton#hhandle:active {
   -margin-horizontal: 0;
   background-image: url("img/misc/separator.svg");
   background-repeat: repeat;
-  height: 13px;
+  height: 5px;
 }
 
 .popup-slider-menu-item {
@@ -1917,7 +1917,7 @@ StScrollBar StButton#hhandle:active {
  * ! User Applet
  * ====================================== */
 .user-box {
-  padding: .8em 1.3em;
+  padding: .8em 1.3em .4em;
   spacing: 10px;
 }
 
