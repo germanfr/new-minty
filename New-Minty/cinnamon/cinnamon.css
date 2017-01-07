@@ -2,7 +2,7 @@
  * ! Font
  * ====================================== */
 stage {
-  font-family: Roboto, Noto Sans, Sans-Serif;
+  font-family: Liberation Sans, FreeSans, Droid Sans, Sans-Serif;
   font-size: 12px;
 }
 
@@ -3071,7 +3071,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   text-shadow: 0 0 0 transparent;
   text-align: center;
   vertical-align: top;
-  font-family: Roboto, Noto Sans, Sans-Serif;
+  font-family: Liberation Sans, FreeSans, Droid Sans, Sans-Serif;
   font-size: 14px;
   font-weight: bold;
   clear: both;
