@@ -50,5 +50,5 @@ recompile sass and reload the theme when a change occurs.
 
 ---
 
-<img src="http://pre02.deviantart.net/64bf/th/pre/f/2017/005/8/3/new_minty_cinnamon_by_zagortenay333-d6thrge.png" id="preview">  
+<img src="http://orig04.deviantart.net/e82e/f/2017/005/8/3/new_minty_cinnamon_by_zagortenay333-d6thrge.png" id="preview">  
 <sup>**Preview info:** [Wallpaper](http://ether.deviantart.com/art/cluster-83162109), [Icons](https://github.com/moka-project/moka-icon-theme)</sup>
