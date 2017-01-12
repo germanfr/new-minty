@@ -2003,18 +2003,20 @@ StScrollBar StButton#hhandle:active {
 
 .menu-category-button {
   padding: .6em;
+  font-weight: bold;
   color: rgba(255, 255, 255, 0.65);
 }
 
 .menu-category-button-greyed {
   padding: .6em;
   color: rgba(255, 255, 255, 0.3);
-  font-style: normal;
+  font-weight: bold;
 }
 
 .menu-category-button-selected {
   padding: .6em;
   border-image: url("img/containers/hover.svg") 7;
+  font-weight: bold;
   color: #fff;
 }
 
