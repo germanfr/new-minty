@@ -276,6 +276,10 @@ StScrollBar StButton#hhandle:active {
   border-image: url("img/controls/slider.svg") 3 3 0 0;
 }
 
+.popup-menu-item:active .slider {
+  -slider-active-border-color: #6aaf2f;
+}
+
 .separator {
   -gradient-height: 1px;
   -gradient-start: transparent;
@@ -419,6 +423,10 @@ StScrollBar StButton#hhandle:active {
   -slider-border-width: 2px;
   -slider-handle-radius: 4px;
   border-image: url("img/controls/slider.svg") 3 3 0 0;
+}
+
+.popup-menu-item:active .popup-slider-menu-item {
+  -slider-active-border-color: #6aaf2f;
 }
 
 .popup-inactive-menu-item {

@@ -119,6 +119,10 @@
     -slider-border-width: 2px;
     -slider-handle-radius: 4px;
     border-image: url("img/controls/slider.svg") 3 3 0 0;
+
+    .popup-menu-item:active & {
+        -slider-active-border-color: saturate(darken($accent-primary, 12%), 14%);
+    }
 }
 
 .popup-inactive-menu-item {
