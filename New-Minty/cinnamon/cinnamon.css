@@ -762,7 +762,7 @@ StScrollBar StButton#hhandle:active {
   width: 34em;
   margin-from-right-edge-of-screen: 6px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
 }
 
@@ -774,7 +774,7 @@ StScrollBar StButton#hhandle:active {
 
 #notification CinnamonGenericContainer *:first-child {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   padding: .3em 0;
   color: #fff;
 }
