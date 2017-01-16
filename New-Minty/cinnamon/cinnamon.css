@@ -429,22 +429,22 @@ StScrollBar StButton#hhandle:active {
   -slider-active-border-color: #6aaf2f;
 }
 
-.popup-inactive-menu-item {
-  color: rgba(255, 255, 255, 0.65);
-}
-
-/* Right click in scale */
+/* Right click in scale (show all windows) */
 .popup-combo-menu {
   border-image: url("img/containers/popup.svg") 9;
   padding: .8em .3em;
   color: #fff;
 }
 
-/* used mainly for the notif-applet */
-.popup-menu-item .popup-subtitle-menu-item {
+.popup-inactive-menu-item {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.popup-subtitle-menu-item {
   font-weight: bold;
 }
 
+/* used in power applet */
 .popup-device-menu-item {
   spacing: .8em;
 }
@@ -923,31 +923,29 @@ StScrollBar StButton#hhandle:active {
 /* ======================================
  * ! Notification applet
  * ====================================== */
-.notification-applet-padding {
-  padding: .6em .8em;
+#traycontainer {
+  padding: .4em;
 }
 
-.notification-applet-padding:first-child {
-  padding-top: 1.3em;
+#traycontainer StScrollBar {
+  padding: .4em 0 .4em .3em;
 }
 
-.notification-applet-padding:last-child {
-  padding-bottom: .8em;
+#traycontainer .notification-applet-padding {
+  padding: .4em 0;
 }
 
-/* Notifs look inside the notification applet & other popups. */
-.popup-menu-content #notification {
+#traycontainer #notification {
   border-image: url("img/containers/light-bg-marked-green.svg") 7;
   padding: .8em .8em .6em 1em;
 }
 
-.popup-menu-content #notification.multi-line-notification {
+#traycontainer #notification.multi-line-notification {
   border-image: url("img/containers/light-bg-marked-magenta.svg") 7;
 }
 
-.popup-menu-content #notification.notification-with-image {
+#traycontainer #notification.notification-with-image {
   border-image: url("img/containers/light-bg-marked-blue.svg") 7;
-  padding-bottom: .8em;
 }
 
 /* ======================================
