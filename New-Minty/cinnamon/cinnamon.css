@@ -757,7 +757,7 @@ StScrollBar StButton#hhandle:active {
 #notification {
   border-image: url("img/containers/popup.svg") 7;
   padding: 1.3em;
-  spacing-rows: .2em;
+  spacing-rows: .3em;
   spacing-columns: 10px;
   width: 34em;
   margin-from-right-edge-of-screen: 6px;
@@ -775,19 +775,19 @@ StScrollBar StButton#hhandle:active {
 #notification CinnamonGenericContainer *:first-child {
   font-weight: bold;
   font-size: 12px;
-  padding: .3em 0;
+  padding-top: .3em;
   color: #fff;
 }
 
 #notification CinnamonGenericContainer *:last-child {
-  padding: .4em 0;
+  padding-top: .3em;
   color: #fff;
 }
 
 #notification-body {
   font-weight: normal;
   font-size: 12px;
-  padding: .5em 0;
+  padding-top: .6em;
 }
 
 #notification-actions {
@@ -937,7 +937,7 @@ StScrollBar StButton#hhandle:active {
 
 #traycontainer #notification {
   border-image: url("img/containers/light-bg-marked-green.svg") 7;
-  padding: .8em .8em .6em 1em;
+  padding: .8em .8em .8em 1em;
 }
 
 #traycontainer #notification.multi-line-notification {
