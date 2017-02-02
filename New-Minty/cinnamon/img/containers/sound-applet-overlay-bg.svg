@@ -11,12 +11,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="90.000000"
    inkscape:export-xdpi="90.000000"
-   width="6"
-   height="6"
+   width="24"
+   height="24"
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="sound-slider-border.svg"
+   sodipodi:docname="sound-applet-overlay-bg.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -27,11 +27,11 @@
      pagecolor="#8c8c8c"
      bordercolor="#ff5e00"
      borderopacity="1"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="-8.314218"
-     inkscape:cy="5.7497593"
+     inkscape:zoom="17.382377"
+     inkscape:cx="11.518754"
+     inkscape:cy="11.240765"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -43,12 +43,12 @@
      inkscape:window-y="26"
      width="400px"
      height="300px"
-     inkscape:snap-nodes="false"
+     inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      gridtolerance="10000"
-     inkscape:object-nodes="true"
+     inkscape:object-nodes="false"
      inkscape:snap-grids="true"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-maximized="1"
      inkscape:bbox-nodes="true"
@@ -62,8 +62,7 @@
      guidecolor="#ff0b00"
      guideopacity="1"
      guidehicolor="#001aff"
-     guidehiopacity="0.49803922"
-     inkscape:snap-smooth-nodes="true">
+     guidehiopacity="0.49803922">
     <inkscape:grid
        type="xygrid"
        id="grid3123"
@@ -90,7 +89,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -129,13 +128,30 @@
      inkscape:groupmode="layer"
      inkscape:label="Base"
      id="layer1"
-     transform="translate(0,-294)">
+     transform="translate(0,-276)">
     <rect
-       style="opacity:0.5;fill:#000000;fill-opacity:1"
-       id="rect4158"
-       width="6"
-       height="6"
+       style="opacity:0.95999995;fill:#141414;fill-opacity:1;stroke:none"
+       id="rect5315"
+       width="24"
+       height="22"
        x="0"
-       y="294" />
+       y="-299"
+       transform="scale(1,-1)" />
+    <rect
+       y="-277"
+       x="0"
+       height="1"
+       width="24"
+       id="rect5319"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4136"
+       width="24"
+       height="1"
+       x="0"
+       y="-300" />
   </g>
 </svg>
