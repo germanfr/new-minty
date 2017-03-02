@@ -130,19 +130,30 @@
     );
 }
 
+@mixin btn-danger-primary {
+    @include btn(
+        's',
+        $text-primary,
+        'primary',
+        $text-danger,
+        'red',
+        $text-disabled
+    );
+}
+
 @mixin btn-linked-primary {
-    @include btn('m', $text-primary, 'primary', $text-link);
+    @include btn('m', $text-primary, 'primary', $text-link, 'green');
 
     &:first-child {
-        @include btn('f', $text-primary, 'primary', $text-link);
+        @include btn('f', $text-primary, 'primary', $text-link, 'green');
     }
 
     &:last-child {
-        @include btn('l', $text-primary, 'primary', $text-link);
+        @include btn('l', $text-primary, 'primary', $text-link, 'green');
     }
 
     &:last-child:first-child {
-        @include btn('s', $text-primary, 'primary', $text-link);
+        @include btn('s', $text-primary, 'primary', $text-link, 'green');
     }
 }
 
