@@ -1980,7 +1980,7 @@ StScrollBar StButton#hhandle:active {
  * ! App menu applet
  * ====================================== */
 .menu-favorites-box {
-  border-image: url("img/containers/dark-bg.svg") 3;
+  border-image: url("img/containers/dark-bg.svg") 9;
   padding: 0.5em;
 }
 
