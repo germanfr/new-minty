@@ -3838,16 +3838,13 @@ use to override window-list-item-box */
   link-color: #a3e36b;
 }
 
+.timepp-menu .todo-section .delete-complete-tasks-label,
+.timepp-menu .todo-section .no-todo-file-msg {
+  color: #ff6a6a;
+}
+
 .timepp-menu .todo-section .loading-msg {
   color: #af8eff;
-}
-
-.timepp-menu .todo-section .no-todo-file-msg {
-  color: #ffb34f;
-}
-
-.timepp-menu .todo-section .warning-label {
-  color: #ffb34f;
 }
 
 .timepp-menu .todo-section .due-date-label {
