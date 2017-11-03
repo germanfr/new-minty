@@ -48,10 +48,10 @@
 }
 
 .applet-box {
-    padding: 0 4px;
+    padding: 0 6px;
     color: $text-primary;
 
-    &.vertical { padding: 4px 0; }
+    &.vertical { padding: 6px 0; }
 }
 
 @each $pos in top, bottom, left, right {

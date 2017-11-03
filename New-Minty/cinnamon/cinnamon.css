@@ -460,7 +460,7 @@ StScrollBar StButton#hhandle:active {
   border-image: url("img/panel/panel-top.svg") 10;
   font-size: 12px;
   width: 32px;
-  height: 26px;
+  height: 32px;
 }
 
 .panel-top:highlight {
@@ -484,7 +484,7 @@ StScrollBar StButton#hhandle:active {
   border-image: url("img/panel/panel-bottom.svg") 10;
   font-size: 12px;
   width: 32px;
-  height: 26px;
+  height: 32px;
 }
 
 .panel-bottom:highlight {
@@ -508,7 +508,7 @@ StScrollBar StButton#hhandle:active {
   border-image: url("img/panel/panel-left.svg") 10;
   font-size: 12px;
   width: 32px;
-  height: 26px;
+  height: 32px;
 }
 
 .panel-left:highlight {
@@ -532,7 +532,7 @@ StScrollBar StButton#hhandle:active {
   border-image: url("img/panel/panel-right.svg") 10;
   font-size: 12px;
   width: 32px;
-  height: 26px;
+  height: 32px;
 }
 
 .panel-right:highlight {
@@ -1346,12 +1346,12 @@ StScrollBar StButton#hhandle:active {
 }
 
 .applet-box {
-  padding: 0 4px;
+  padding: 0 6px;
   color: #fff;
 }
 
 .applet-box.vertical {
-  padding: 4px 0;
+  padding: 6px 0;
 }
 
 .panel-top .applet-box:hover {
@@ -1780,9 +1780,9 @@ StScrollBar StButton#hhandle:active {
 }
 
 .workspace-button {
-  width: 20px;
-  height: 10px;
-  padding: 0 3px;
+  width: 1.4em;
+  height: 1.4em;
+  padding: 0 6px;
   color: rgba(255, 255, 255, 0.65);
   font-weight: bold;
 }
@@ -1930,11 +1930,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .launcher {
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .vertical .launcher {
-  padding: 4px 0;
+  padding: 6px 0;
 }
 
 .panel-top .launcher:hover {
