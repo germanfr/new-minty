@@ -25,6 +25,11 @@
         height: .8em;
         color: $accent-primary;
     }
+
+    .level-bar {
+        background-color: $accent-primary;
+        border-radius: 2px;
+    }
 }
 
 /* Appears when switching workspaces */

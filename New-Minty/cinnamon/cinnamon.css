@@ -2154,6 +2154,11 @@ StScrollBar StButton#hhandle:active {
   color: #8abf5c;
 }
 
+.osd-window .level-bar {
+  background-color: #8abf5c;
+  border-radius: 2px;
+}
+
 /* Appears when switching workspaces */
 .workspace-osd {
   border-image: url("img/containers/popup.svg") 7;
