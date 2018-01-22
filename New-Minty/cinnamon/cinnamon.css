@@ -2214,7 +2214,6 @@ StScrollBar StButton#hhandle:active {
  * ====================================== */
 /* Overrides the '.menu' selector */
 .weather-menu .popup-menu-content {
-  border-image: url("img/containers/popup.svg") 10;
   padding: 0px;
 }
 
