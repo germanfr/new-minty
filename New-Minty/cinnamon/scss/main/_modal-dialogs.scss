@@ -85,15 +85,19 @@
  * ====================================== */
 
 .about-content {
-    width: 550px;
-    height: 250px;
-    spacing: 12px;
-
+    min-width: 360px;
+    max-width: 550px;
+    spacing: 24px;
     > *:first-child > *     { spacing: .2em; }
     > *:first-child > * > * { spacing: .7em; }
 }
 
-.about-icon { color: $text-primary; }
+.about-icon {
+    color: $text-primary;
+
+    &:ltr { padding-right: 24px; }
+    &:rtl { padding-left: 24px; }
+}
 
 .about-title {
     font-size: 2em;
