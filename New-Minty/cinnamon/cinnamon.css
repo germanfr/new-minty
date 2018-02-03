@@ -1356,6 +1356,7 @@ StScrollBar StButton#hhandle:active {
 .applet-box {
   padding: 0 6px;
   color: #fff;
+  spacing: 4px;
 }
 
 .applet-box.vertical {
