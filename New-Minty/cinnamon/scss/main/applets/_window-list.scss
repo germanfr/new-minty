@@ -45,6 +45,7 @@
 }
 
 /*
+ * [DEPRECATED] Cinnamon < 3.8
  * The window list thumbnail shares a class
  * with the alt-tab switcher, but it is
  * the direct child of the top container.
@@ -65,5 +66,18 @@
         > StBoxLayout {
             spacing: .4em;
         }
+    }
+}
+
+.window-list-preview {
+    border-image: url("img/containers/popup.svg") 7;
+    padding: 6px;
+    spacing: 4px;
+    color: $text-primary;
+    font-size: $font-size-base;
+    font-weight: bold;
+
+    StLabel {
+        padding: .25em;
     }
 }
