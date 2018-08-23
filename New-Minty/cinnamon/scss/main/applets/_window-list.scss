@@ -36,6 +36,10 @@
                 border-image: url("img/panel/window-list__#{$pos}__active__hover.svg") 4;
                 color: $text-primary;
             }
+
+            .progress {
+                border-image: url("img/panel/applet__#{$pos}__hover.svg") 4;
+            }
         }
 
         .window-list-item-demands-attention {
