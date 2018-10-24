@@ -90,16 +90,24 @@
     background-color: rgba(#000, .65);
 }
 
+.window-border {
+    border: (4px - 1px) $accent-primary;
+    box-shadow: 0 0 0 1px $accent-primary inset;
+    border-radius: 2px;
+    background-color: rgba(#fff, .05);
+}
+
 .window-caption {
     border-image: url("img/expo_scale/expo-bg__dark.svg") 6;
     color: $text-primary;
     font-size: $font-size-base;
     font-weight: bold;
-    padding: 6px 8px;
-    spacing: 25px;
-    -cinnamon-caption-spacing: 10px;
+    padding: .75em;
+    spacing: .75em;
+    -cinnamon-caption-spacing: 8px;
 
-    &#selected {
+    &#selected, // #selected: Cinnamon <= 3.8.8
+    &:focus {
         border-image: url("img/expo_scale/expo-bg__active.svg") 6;
         color: $text-primary;
     }
@@ -109,7 +117,7 @@
     background-image: url("img/controls/close.svg");
     background-size: 41px;
     @include size(41px);
-    -cinnamon-close-overlap: 24px;
+   -cinnamon-close-overlap: 20px;
 
     &:hover {
         background-image: url("img/controls/close-hover.svg");
@@ -120,4 +128,7 @@
     }
 }
 
-.window-iconbox {}
+.overview-empty-placeholder {
+	color: $text-primary;
+	font-size: $font-size-xxl;
+}
