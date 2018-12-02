@@ -85,3 +85,99 @@
         padding: .25em;
     }
 }
+
+/* ======================================
+ * ! Grouped window list
+ * ====================================== */
+
+.grouped-window-list {
+    &-thumbnail-menu {
+        .item-box {
+            color: $text-secondary;
+            font-weight: bold;
+            padding: 4px;
+            spacing: .75em;
+
+            /* Currently focused window */
+            &:outlined {
+                color: $text-primary;
+                border-image: url("img/containers/light-bg.svg") 8;
+            }
+
+            &:hover {
+                color: $text-primary;
+                border-image: url("img/containers/hover.svg") 8;
+            }
+        }
+
+        .window-close {
+            background-image: url("img/controls/close-simple.svg");
+
+            &:hover { background-image: url("img/controls/close-simple-hover.svg"); }
+        }
+    }
+
+    &-thumbnail-label {
+        /* Compensate width (fixed) of the window close button to the right */
+        margin-left: 22px;
+    }
+
+    &-item-box {
+        color: $text-primary;
+        font-weight: bold;
+        padding: 0 6px;
+        spacing: 4px;
+
+        &.vertical { padding: 6px 0; }
+
+        /*
+         * :hover - mouse is over
+         * :active - application is running
+         * :closed - application is not running
+         * :focus - current application
+         * :checked - when the context menu is open
+         */
+        @each $pos in top, bottom, left, right {
+            &.#{$pos} {
+                &:hover  {
+                    border-image: url("img/panel/applet__#{$pos}__hover.svg") 4;
+                }
+
+                &:active, &:checked {
+                    border-image: url("img/panel/window-list__#{$pos}__active.svg") 4;
+                    color: $text-secondary;
+
+                    &:hover {
+                        border-image: url("img/panel/window-list__#{$pos}__active__hover.svg") 4;
+                    }
+                }
+
+                &:focus, &:focus:hover {
+                    border-image: url("img/panel/applet__#{$pos}__checked.svg") 4;
+                    color: $text-primary;
+                }
+
+                &:closed {/* ! */}
+            }
+        }
+    }
+
+    &-button-label {
+        padding: 0; // Reset this
+    }
+
+    &-badge {
+        border-image: url("img/containers/badge.svg") 4;
+        color: $text-primary-invert;
+        font-weight: bold;
+        // margin-top: 3px;
+        // margin: 8px;
+        // padding-top: 1px; /* Adjust vertically uncentered text */
+        border-top: 1px transparent;
+    }
+
+    &-number-label {
+        background: transparent; /* Add this to cancel default styles */
+        // margin-top: 1px;
+    }
+}

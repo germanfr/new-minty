@@ -5,6 +5,7 @@
 .menu {
     padding: 0;
     min-width: 100px;
+    color: $text-primary;
     background-color: rgba(20, 20, 20, 0.96);
     border: 1px solid #000000;
 
@@ -31,7 +32,6 @@
 
 .popup-menu-content {
     padding: .5em 0;
-    color: $text-primary;
     max-height: 70em;
 }
 
