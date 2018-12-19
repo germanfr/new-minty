@@ -128,7 +128,7 @@
         padding: 0 6px;
         spacing: 4px;
 
-        &.vertical { padding: 6px 0; }
+        .vertical & { padding: 6px 0; }
 
         /*
          * :hover - mouse is over
